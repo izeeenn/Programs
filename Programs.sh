@@ -256,7 +256,7 @@ while true; do
 							test-err $?
 							mysql -u root -e "create user '$username'@'localhost' identified by '$password';"
 							test-err $?
-							mysql -u root -e "grant all privileges on glpi.* to '$username'@'localhost';"
+							mysql -u root -e "grant all privileges on $database.* to '$username'@'localhost';"
 							test-err $?
 							mysql -u root -e "flush privileges;"
 							test-err $?
