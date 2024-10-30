@@ -1,4 +1,6 @@
 #!/bin/bash
+#Created by Jan Molina
+
 LRED="\e[91m"
 LGREEN="\e[92m"
 LYELLOW="\e[93m"
